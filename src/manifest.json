@@ -1,5 +1,5 @@
 {
-    "name": "__MSG_extName__",
+    "name": "TMPWM Extensioon",
     "version": "0.1",
     "manifest_version": 2,
     "author": "Trend Micro, Inc.",
@@ -12,7 +12,7 @@
     "content_scripts": [
       {
         "matches": ["http://*/*", "https://*/*"],
-        "js": ["contentScript.js"],
+        "js": ["contentScript.bundle.js"],
         "run_at": "document_end",
         "all_frames": true
       }
@@ -22,13 +22,12 @@
       "default_title": "__MSG_extTitle__",
       "default_popup": "popup.html"
     },
-    "permissions": [ 
-        "tabs", 
+    "permissions": [
+        "tabs",
         "activeTab",
-        "webRequestBlocking", 
-        "https://*/*", 
-        "http://*/*" 
+        "webRequestBlocking",
+        "https://*/*",
+        "http://*/*"
     ],
     "default_locale" : "en"
   }
-  
