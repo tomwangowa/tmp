@@ -1,0 +1,20 @@
+{
+	"extName" : {
+		"message" : "%FULL_PRODUCT_NAME%"
+	},
+	"extDescription" : {
+		"message" : "讓您從任何位置快速、輕鬆和安全地管理您的密碼。"
+	},
+	"extTitle" : {
+		"message" : "%PRODUCT_NAME%"
+	},
+	"errorPortScanning" : {
+		"message" : "啟動..."
+	},
+	"errorNoNetwork" : {
+		"message" : "連接到 Internet 以使用此功能"
+	},
+	"errorNoPwm" : {
+		"message" : "您的%PRODUCT_NAME%已被關閉"
+	}
+}
